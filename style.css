@@ -136,7 +136,11 @@ nav a{
     border-radius:20px;
 
     transition:.3s;
+        text-decoration:none;
+    color:white;
+    display:block;
 }
+
 .tarjeta:hover{
     transform:translateY(-10px);
 
@@ -364,4 +368,109 @@ footer a{
         font-size:2rem;
     }
 
+}
+/* meditaciones guiadas*/
+
+.playlist{
+    padding:20px 10% 80px;
+    text-align:center;
+}
+
+.playlist h2{
+    margin-bottom:30px;
+}
+
+.playlist iframe{
+    width:100%;
+    max-width:1200px;
+
+    aspect-ratio:16/9;
+
+    height:auto;
+
+    border:none;
+    border-radius:20px;
+
+    display:block;
+    margin:auto;
+
+    box-shadow:0 0 30px rgba(138,109,255,.3);
+}
+.pagina-tema{
+    padding:100px 10%;
+    text-align:center;
+}
+
+.pagina-tema h1{
+    font-size:4rem;
+    margin-bottom:20px;
+}
+
+.pagina-tema p{
+    max-width:700px;
+    margin:0 auto 30px auto;
+    line-height:1.8;
+    font-size:1.1rem;
+    opacity:.9;
+    
+}
+.volver{
+    display:inline-block;
+    margin:40px auto 0;
+
+    padding:12px 24px;
+    background:#6d4cff;
+    color:white;
+    text-decoration:none;
+    border-radius:8px;
+    transition:.3s;
+}
+
+.volver:hover{
+    background:#8a6dff;
+    transform:translateY(-3px);
+}
+.contenedor-volver{
+    text-align:center;
+    margin-top:40px;
+}
+.info-meditacion{
+    max-width:900px;
+    margin:80px auto;
+    text-align:center;
+}
+
+.info-meditacion h2{
+    font-size:2.2rem;
+    margin-bottom:30px;
+    color:#b69cff;
+}
+
+.info-meditacion p{
+    margin-bottom:20px;
+    line-height:1.8;
+    opacity:.9;
+}
+
+.beneficios{
+    background:rgba(255,255,255,.05);
+    border:1px solid rgba(255,255,255,.1);
+    border-radius:20px;
+    padding:40px;
+    max-width:900px;
+    margin:60px auto;
+}
+
+.beneficios ul{
+    list-style:none;
+}
+
+.beneficios li{
+    margin:20px 0;
+    font-size:1.1rem;
+}
+.activo{
+    color:#b69cff;
+    border-bottom:2px solid #b69cff;
+    padding-bottom:5px;
 }
