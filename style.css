@@ -34,7 +34,6 @@ h1,h2,h3{
     linear-gradient(
     rgba(11,6,32,.8),
     rgba(20,10,60,.9)
-    
     );
    
     position:relative;
@@ -45,6 +44,8 @@ h1,h2,h3{
     font-size:3rem;
     font-weight:700;
     margin-bottom:20px;
+    max-width:900px;
+    margin:0 auto 20px;
 }
 #hero p{
     max-width:600px;
@@ -62,6 +63,10 @@ h1,h2,h3{
     border-radius:8px;
 
     transition:.3s;
+}
+.hero-contenido{
+    max-width:800px;
+    margin:0 auto;
 }
 
 #hero a:hover{
@@ -473,4 +478,19 @@ footer a{
     color:#b69cff;
     border-bottom:2px solid #b69cff;
     padding-bottom:5px;
+}
+.info-tema{
+    max-width:900px;
+    margin:60px auto;
+    text-align:center;
+}
+
+.info-tema h2{
+    color:#b69cff;
+    margin-bottom:30px;
+}
+
+.info-tema p{
+    line-height:1.8;
+    margin-bottom:20px;
 }
